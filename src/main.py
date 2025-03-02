@@ -11,7 +11,8 @@ def main():
         if question.lower() == "exit":
             break
         answer = ask_question(question)
-        print(f"\nAnswer: {answer}")
+        ask_question(question)
+        # print(f"\nAnswer: {answer}")
 
 if __name__ == "__main__":
     main()

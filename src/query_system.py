@@ -38,9 +38,9 @@ def ask_question(question: str) -> str:
     # Debug: Check if agent is initialized
     print("Agent initialized. Asking question...")
 
-    # Ask the question and get the response
-    run_response = agent.run(question)
-    answer = run_response.content
-    
-    print(f"Answer: {answer}")
-    return answer
+    # # Ask the question and get the response
+    # run_response = agent.run(question)
+    # answer = run_response.content
+    agent.print_response(question)
+    # print(f"Answer: {answer}")
+    # return answer
