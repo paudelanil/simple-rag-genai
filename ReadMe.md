@@ -58,3 +58,7 @@ To run the interactive query system, use:
 ```bash
 python src/main.py
 ```
+
+Example:
+
+![alt text](image.png)
