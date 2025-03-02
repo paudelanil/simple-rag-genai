@@ -1,0 +1,8 @@
+agno
+openai
+lancedb
+pypdf
+pydantic
+sentence-transformers
+faiss-cpu
+numpy
